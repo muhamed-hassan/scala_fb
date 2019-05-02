@@ -1,0 +1,16 @@
+compile
+run
+set ThisBuild / scalaVersion := "2.12.7"
+scalaVersion
+session save
+reload
+test
+clean
+eclipse
+reload
+eclipse
+reload
+eclipse
+test
+clean
+dir
