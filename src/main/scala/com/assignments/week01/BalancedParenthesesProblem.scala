@@ -3,6 +3,7 @@ package com.assignments.week01
 import scala.collection.mutable.ListBuffer
 import scala.collection.mutable.ArrayBuffer
 
+
 object BalancedParenthesesProblem {
 
   def balance(chars: List[Char]): Boolean = {
@@ -17,10 +18,7 @@ object BalancedParenthesesProblem {
 
       if (cursorParam == charsParam.size) { //reached to end
 
-        if ( parenthesesStack.isEmpty ) 
-          return balancedParenthesesCount == 0
-        else 
-          return false
+        return parenthesesStack.isEmpty && balancedParenthesesCount == 0
       } else if (charsParam(cursorParam) == OPENNING_PARENTHESES) {
         
         balancedParenthesesCount += 1;

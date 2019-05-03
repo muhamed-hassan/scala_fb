@@ -4,6 +4,7 @@ import org.scalatest.FunSuite
 
 import com.assignments.week01.BalancedParenthesesProblem.balance
 
+
 class BalancedParenthesesProblemTest extends FunSuite {
 
   test("balance: '(if (zero? x) max (/ 1 x))' is balanced") {

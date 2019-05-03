@@ -1,5 +1,6 @@
 package com.assignments.week01
 
+
 object PascalTriangleProblem {
 
   def generateNumber(column: Int, row: Int): Int = {
